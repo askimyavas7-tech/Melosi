@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Bosbos:bosbos@cluster0.6ablf.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -51,13 +51,13 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002474970241"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","elif")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "7678880871").split())
+    map(int, getenv("OWNER_ID", "").split())
 
 )  # Input type must be interger
 
@@ -88,7 +88,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/EtiketTaggerDuyuru") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
