@@ -1,10 +1,4 @@
-<h1>Yeni Nesil Tamamen Türkçe Müzik Botu</h1>
-
-Telegram sohbet gruplarında hem müzik dinleyebileceğiniz hem de video izleyebileceğiniz müzik botudur.
-Bot tamamen açık kaynak kodludur istediğiniz gibi kullanabilirsiniz.
-
-## DEVELOPER İLETİŞİM
-<b>Telegram:</b> <a href="https://t.me/ToxicTR">Toxic</a> ulaşabilirsiniz. <br>
+che sunar 
 
 ## 🖇 VPS Deployment
 <code>
