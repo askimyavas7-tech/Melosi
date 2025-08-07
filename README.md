@@ -2,7 +2,7 @@ che sunar
 
 ## 🖇 VPS Deployment
 <code>
-git clone https://github.com/ToxicTR/Toxic-Music
+git clone https://github.com/deliyim3434
 cd Toxic-Music
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install python3-pip ffmpeg -y
