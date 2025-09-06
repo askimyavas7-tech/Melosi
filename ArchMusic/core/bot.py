@@ -30,11 +30,6 @@ group_commands = [
     BotCommand("gerisar", "⏪ Parçayı Geri Sarar"),
     BotCommand("playlist", "📖 Çalma Listenizi Gösterir"),
     BotCommand("bul", "📩 Seçtiğiniz Parçayı İndirir"),
-    BotCommand("ayarlar", "⚙️ Bot Ayarlarını Gösterir"),
-    BotCommand("restart", "🔃 Botu Yeniden Başlatır"),
-    BotCommand("reload", "❤️‍🔥 Yönetici Önbelleğini Günceller"),
-
-    # 🔹 Etiket Komutları
     BotCommand("tag", "👤 Tek tek etiketler"),
     BotCommand("atag", "👮 Gruptaki adminleri etiketler"),
     BotCommand("utag", "👥 Çoklu etiketler"),
@@ -45,8 +40,6 @@ group_commands = [
     BotCommand("sorutag", "❓ Sorularla etiketler"),
     BotCommand("ktag", "🎭 Karakter ile etiketler"),
     BotCommand("stag", "💬 Sözlerle etiketler"),
-
-    # 🔹 Eğlence Komutları
     BotCommand("eros", "🏹 Eros oku atar"),
     BotCommand("burc", "🔮 Burcunuzu yorumlar"),
     BotCommand("mani", "🎶 Mani söyler"),
@@ -60,9 +53,12 @@ group_commands = [
     BotCommand("oner", "🎵 Şarkı önerir"),
     BotCommand("para", "🪙 Yazı tura atar"),
     BotCommand("saka", "😂 Rastgele şaka gönderir"),
-
-    # 🔹 ChatMode Komutu
     BotCommand("chatmode", "💬 Sohbet modunu aç/kapat"),
+    BotCommand("ayarlar", "⚙️ Bot Ayarlarını Gösterir"),
+    BotCommand("restart", "🔃 Botu Yeniden Başlatır"),
+    BotCommand("reload", "❤️‍🔥 Yönetici Önbelleğini Günceller"),
+
+    
 ]
 
 
