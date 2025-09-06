@@ -1,46 +1,59 @@
 #.
 HELP_1 = """ <u>**ETİKET KOMUTU:**</u>
-  /chatbot yazarak yapak zeka calistirir
-🔹 /tag  Grubunuzdaki tüm üyeleri isimleriyle etiketler
-🔹 /atag  Grubunuzdaki tüm yöneticileri etiketler. 
-🔹 /btag Grubunuzdaki tüm üyeleri bayraklarla etiketler
-🔹 /ctag  Grubunuzdaki tüm üyeleri karakter isimleri ile etiketler
-🔹 /etag  Grubunuzdaki tüm üyeleri emojiler ile etiketler.
-🔹 /ftag Grubunuzdaki tüm üyeleri seçtiğiniz fotoğraf ile etiketler. 
-🔹 /otag  Grubunuzdaki tüm üyeleri iskambil kartları ile etiketler. 
-🔹 /ptag  Grubunuzdaki tüm üyeleri güzel sözlerle etiketler. 
-🔹 /rtag -Grubunuzdaki tüm üyeleri rastgele renklerle etiketler
-🔹 /stag Seçtiğiniz birisini seçtiğiniz sticker ile etiketler. Gizli Etiket😶‍🌫️
-🔹 /itag Seçtiğiniz birisini rastegele bir emoji ile etiketleyin 
+  /chatmode ile sohbetinizi canlandırabilirim
+
+ » /tag  Tek tek etiketler.
+
+» /atag  Gruptaki adminleri etiketler.
+
+» /utag  Çoklu etiketler.
+
+» /etag Emoji ile etiketler.**
+
+» /igtag iyi geceler mesajları ile etiketler.**
+
+» /guntag  günaydın mesajları ile etiketler.**
+
+» /btag  Bayrak ile etiketler.**
+
+» /sorutag  Sorularla etiketler.**
+
+» /ktag`  Karakter ile etiketler.**
+
+» /stag` Sözlerle etiketler.**
 """
+
 HELP_2 = """ <u>**Eğlence komutları:**</u>
 🎲 Eğlence komutlarım:
 
 
-🔹 /dice - Rastgele bir zar atın. 🎲
+➫  **/eros **| eros**  –  Eros oku atar.**
 
-🔹 /coin - Rastgele bir para atın. 🪙
+➫  **/burc  –  Burçlarınızı yorumlarım.**
 
-🔹 /slap - Birini tokatlayın. 👋
+➫ **/mani  –  Mani söylerim.
 
-🔹 /roll - Rastgele bir sayı atın. 🎲
+➫  **/slap  –  Birini tokatlayın.**
 
-🔹 /joke - Rastgele bir şaka gönderin. 🤣
+➫  **/zar  –  Rastgele bir zar atın.**
 
-🔹 /soz - Rastgele bir söz gönderin. 📜
+➫  **/dart  –  Dart atar.**
 
-🔹 /tts - Bir metni sesli olarak okutun. 📢
+➫  **/cash  –  Şans slot'u çevirir.**
 
-🔹 /sticker - Bir fotoğrafı çıkartmaya dönüştürün. 🎴
+➫  **/fcash  –  Kaleye top atar.**
 
-🔹 /photo - Bir çıkartmayı fotoğrafa dönüştürün. 📸
+➫  **/bcash  –  Basket atar.**
 
-🔹 /fileid - Telegram'daki herhangi bir dosyanın ID'sini alın. 🎥
+➫  **/bowling  –  Bowling atar.**
 
-🔹 /qrcode - Bir metni QR koduna dönüştürün. 📱
+➫  **/oner  –  şarkı önerir.**
 
-🔹 /barcode - Bir metni barkoduna dönüştürün. 📱(EAN13)
+➫  **/para  –  Rastgele bir para atın.**
+
+➫  **/saka  –  Rastgele bir şaka gönderin.**
 """
+
 
 
 
