@@ -16,6 +16,7 @@ private_commands = [
 
 
 group_commands = [
+    # 🔹 Müzik Komutları
     BotCommand("oynat", "🔼 Müziği oynatır"),
     BotCommand("voynat", "📹 Videoyu oynatır"),
     BotCommand("atla", "⏭️ Sonraki Parçaya Geçer"),
@@ -32,15 +33,43 @@ group_commands = [
     BotCommand("ayarlar", "⚙️ Bot Ayarlarını Gösterir"),
     BotCommand("restart", "🔃 Botu Yeniden Başlatır"),
     BotCommand("reload", "❤️‍🔥 Yönetici Önbelleğini Günceller"),
-    
+
+    # 🔹 Etiket Komutları
+    BotCommand("tag", "👤 Tek tek etiketler"),
+    BotCommand("atag", "👮 Gruptaki adminleri etiketler"),
+    BotCommand("utag", "👥 Çoklu etiketler"),
+    BotCommand("etag", "😊 Emoji ile etiketler"),
+    BotCommand("igtag", "🌙 İyi geceler mesajları ile etiketler"),
+    BotCommand("guntag", "🌞 Günaydın mesajları ile etiketler"),
+    BotCommand("btag", "🚩 Bayrak ile etiketler"),
+    BotCommand("sorutag", "❓ Sorularla etiketler"),
+    BotCommand("ktag", "🎭 Karakter ile etiketler"),
+    BotCommand("stag", "💬 Sözlerle etiketler"),
+
+    # 🔹 Eğlence Komutları
+    BotCommand("eros", "🏹 Eros oku atar"),
+    BotCommand("burc", "🔮 Burcunuzu yorumlar"),
+    BotCommand("mani", "🎶 Mani söyler"),
+    BotCommand("slap", "🖐️ Birini tokatlar"),
+    BotCommand("zar", "🎲 Rastgele zar atar"),
+    BotCommand("dart", "🎯 Dart atar"),
+    BotCommand("cash", "🎰 Şans slotu çevirir"),
+    BotCommand("fcash", "⚽ Kaleye top atar"),
+    BotCommand("bcash", "🏀 Basket atar"),
+    BotCommand("bowling", "🎳 Bowling atar"),
+    BotCommand("oner", "🎵 Şarkı önerir"),
+    BotCommand("para", "🪙 Yazı tura atar"),
+    BotCommand("saka", "😂 Rastgele şaka gönderir"),
+
+    # 🔹 ChatMode Komutu
+    BotCommand("chatmode", "💬 Sohbet modunu aç/kapat"),
 ]
 
+
 async def set_commands(client):
-    
     await client.set_bot_commands(private_commands, scope=BotCommandScopeAllPrivateChats())
-    
-    
     await client.set_bot_commands(group_commands, scope=BotCommandScopeAllGroupChats())
+
 
 class ArchMusic(Client):
     def __init__(self):
@@ -75,7 +104,6 @@ class ArchMusic(Client):
                 sys.exit()
 
             await set_commands(self)  
-
 
             a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
             if a.status != ChatMemberStatus.ADMINISTRATOR:
