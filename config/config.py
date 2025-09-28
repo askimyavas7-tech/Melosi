@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sensen34:sensen34@cluster0.cwymv12.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -47,17 +47,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002474970241"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1003093852581"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","cemal")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "7913960724").split())
 
 )  # Input type must be interger
 
