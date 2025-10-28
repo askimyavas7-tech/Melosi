@@ -1,1 +1,5 @@
-python3 -m  ArchMusic
+#!/usr/bin/env bash
+set -e
+
+# Botu ArchMusic paketinden başlat
+python3 -m ArchMusic
