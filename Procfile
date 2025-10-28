@@ -1,1 +1,1 @@
-worker: bash -lc '[[ -f start/start.sh ]] && bash start/start.sh || [[ -f start.sh ]] && bash start.sh || [[ -f main.py ]] && python3 main.py || [[ -f bot.py ]] && python3 bot.py || [[ -d start ]] && python3 -m start || [[ -f start ]] && python3 start || exit 127'
+worker: ./start
