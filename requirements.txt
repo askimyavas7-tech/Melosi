@@ -1,14 +1,13 @@
 aiofiles
 aiohttp
-asyncio
 beautifulsoup4
-dnspython
+dnspython>=2.4
 ffmpeg-python
 gitpython
 hachoir
 heroku3
 lyricsgenius
-motor
+motor==3.5.1
 numpy
 pillow
 psutil
@@ -21,12 +20,17 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-git+https://github.com/KurimuzonAkuma/pyrogram@dev
-git+https://github.com/yt-dlp/yt-dlp
-git+https://github.com/alexmercerind/youtube-search-python@main
-git+https://github.com/joetats/youtube_search@master
 pydantic
 httpx==0.25.2
 gtts
-program
 
+# Pyrogram (dev)
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
+
+# YT download & arama kütüphaneleri
+git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/alexmercerind/youtube-search-python@main
+git+https://github.com/joetats/youtube_search@master
+
+# --- MongoDB SRV için şart ---
+pymongo[srv]>=4.6
